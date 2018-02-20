@@ -1,0 +1,2 @@
+attribute_code,label,frontend_class,is_html_allowed_on_front,frontend_input,default_value,is_filterable,is_filterable_in_search,is_searchable,is_visible_in_advanced_search,is_comparable,is_visible_on_front,is_unique,options,data_set_id,data_set_value_column,additional_data,is_used_in_grid,is_filterable_in_grid,is_required,is_global,search_weight,is_used_for_promo_rules,used_in_product_listing,used_for_sort_by,position
+test_multiselect,admin=Test Multiselect;default=Test Multiselect,,0,text,,,,,,,1,,,options,option_text,,,,,0,0,,,,
