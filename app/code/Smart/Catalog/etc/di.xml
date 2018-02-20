@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Smart\Catalog\Repository\ImportRepositoryInterface" type="Smart\Catalog\Repository\ImportRepository"/>
+
+    <type name="Smart\ImportExport\Model\Import\Attribute\Dataset">
+        <plugin name="smartCatalogImportPlugin" type="Smart\Catalog\Plugin\Model\ImportPlugin" />
+    </type>
+</config>
