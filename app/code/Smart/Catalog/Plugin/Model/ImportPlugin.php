@@ -33,7 +33,8 @@ class ImportPlugin
 
         $this->repository->import($source);
         $attribute->setSourceModel(Source::class);
-        $subject->getAttributeRepository()->save($attribute);
+        //$subject->getAttributeRepository()->save($attribute);
+        $attribute->save();
 
         return null;
     }
